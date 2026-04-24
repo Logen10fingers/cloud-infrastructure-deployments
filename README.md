@@ -1,4 +1,4 @@
-# linux-sysadmin-foundation
+# Linux-sysadmin-foundation
 **Focus:** AWS Architecture, Terraform Automation, and DevSecOps Integration.
 
 ## Phase 1: Linux Foundation & Core Security
@@ -32,3 +32,8 @@ Generated asymmetric cryptographic keys for secure cloud server authentication.
 * Forged an ED25519 key pair using `ssh-keygen`.
 * Audited hidden directory perimeters (`ls -l ~/.ssh`) to verify the Private Key was automatically restricted to octal `600` (`-rw-------`) permissions by the kernel.
 * Extracted the Public Key string using `cat` for future AWS EC2 deployment.
+
+### Module 6: Network Operations & Connectivity Audits
+Executed command-line network diagnostics to verify outbound routing and API availability.
+* Validated external internet stability and ICMP routing pathways using `ping`, specifically monitoring latency and packet loss metrics.
+* Interrogated external web servers at the application layer using `curl -I` to extract and verify HTTP 200 status codes without rendering HTML payloads.
