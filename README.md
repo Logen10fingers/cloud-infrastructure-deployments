@@ -20,3 +20,9 @@ Simulated enterprise log extraction and data filtering pipelines.
 * Generated mock infrastructure logs utilizing `echo` and redirection operators (`>`).
 * Retrieved and audited raw data using `cat`, `head`, and `tail`.
 * **Execution Proof:** Successfully constructed a data pipeline using `grep` and the pipe operator (`|`) to instantly isolate the most recent critical system failure from a continuous text stream.
+
+### Module 4: Process Management & Resource Control
+Identified and terminated rogue system processes to prevent CPU/Memory exhaustion.
+* Generated background daemon processes using the `&` operator.
+* Monitored live system memory and CPU consumption using `ps aux`.
+* **Execution Proof:** Successfully isolated a background process ID (PID) and executed a kernel-level termination using the `kill -9` (SIGKILL) command.
